@@ -275,6 +275,7 @@ ItemDisplay[(6hb OR 6cb OR 6s7) NMAG !RW SOCK=4 ED>10]: %NAME%(11%ED↑)【信�
 ItemDisplay[(6l7 OR 6lw) NMAG !RW SOCK=6 ED>10]: %NAME%(11%ED↑)【寂靜│死亡呼吸】(%SOCKETS%) //十字軍之弓、九頭蛇弓(11%ED以上)6 - 寂靜/死亡呼吸
 ItemDisplay[(6hb OR 6cb OR 6s7) NMAG !RW SOCK=4]: %NAME%【信心】(%SOCKETS%) //刀鋒弓、巨弓、鑽石弓4 - 信心
 ItemDisplay[(6l7 OR 6lw) NMAG !RW SOCK=6]: %NAME%【寂靜│死亡呼吸】(%SOCKETS%) //十字軍之弓、九頭蛇弓6 - 寂靜/死亡呼吸
+ItemDisplay[(lbw) NMAG !RW SOCK=5]: %NAME%【新手專用五洞長弓】(%SOCKETS%) //長弓5 - 新手專用
 
 // 德魯伊
 ItemDisplay[CL1 !ETH NMAG !RW SK250=3 SOCK>1 ILVL>25]: <德>%NAME%%RED%【+3暴風】%GRAY%(%SOCKETS%)
