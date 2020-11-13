@@ -223,6 +223,7 @@ ItemDisplay[(ucl OR ult OR uul) !ETH DEF>549 NMAG !RW SOCK=4]: %NAME%(550防↑)
 ItemDisplay[crs NMAG !RW !INF SOCK=3]: %NAME%【新月】(%SOCKETS%) //水晶劍3 - 新月
 ItemDisplay[crs NMAG !RW !ETH SOCK=4]: %NAME%【精神】(%SOCKETS%) //水晶劍4 - 精神
 ItemDisplay[crs NMAG !RW SOCK=5]: %NAME%【戰爭召喚】(%SOCKETS%) //水晶劍5 - 戰爭召喚
+ItemDisplay[crs NMAG !RW SOCK=6]: %NAME%【新手裝】(%SOCKETS%) //水晶劍6 - 新手裝
 ItemDisplay[7cr NMAG !RW SOCK=3]: %NAME%【執法者】(%SOCKETS%) //幻化之刃4 - 執法者
 ItemDisplay[7cr NMAG !RW SOCK=4]: %NAME%【熱情】(%SOCKETS%) //幻化之刃4 - 熱情
 ItemDisplay[7cr NMAG !RW SOCK=5]: %NAME%【悔恨】(%SOCKETS%) //幻化之刃5 - 悔恨
@@ -311,12 +312,15 @@ ItemDisplay[CL2 TABSK34>2 SK149>2]: %RED%<<<%NAME%【+6戰鬥體制】>>>
 ItemDisplay[CL2 CLSK4>1 SK149>2]: %RED%<<<%NAME%【+5戰鬥體制】>>>
 
 // 聖騎士
+ItemDisplay[CL3 ELT !ETH NMAG !RW RES>44 SOCK=0]: <聖>%NAME%【菁英】%RED%(45抗)%WHITE% //聖騎盾(45抗)
 //ItemDisplay[CL3 ELT !ETH NMAG !RW RES>39 SOCK=0]: <聖>%NAME%【菁英】%RED%(40抗↑)%WHITE% //聖騎盾(40抗以上)
-ItemDisplay[CL3 ELT !ETH NMAG !RW RES>29 SOCK=0]: <聖>%NAME%【菁英】%RED%(30抗↑)%WHITE% //聖騎盾(30抗以上)
+//ItemDisplay[CL3 ELT !ETH NMAG !RW RES>29 SOCK=0]: <聖>%NAME%【菁英】%RED%(30抗↑)%WHITE% //聖騎盾(30抗以上)
+ItemDisplay[CL3 ELT !ETH NMAG !RW RES>44 SOCK=3]: <聖>%NAME%【聖堂│夢境│飛龍】%RED%(45抗)%GRAY%(%SOCKETS%) //聖騎盾(45)3 - 聖堂/夢境/飛龍
 //ItemDisplay[CL3 ELT !ETH NMAG !RW RES>39 SOCK=3]: <聖>%NAME%【聖堂│夢境│飛龍】%RED%(40抗↑)%GRAY%(%SOCKETS%) //聖騎盾(40抗以上)3 - 聖堂/夢境/飛龍
-ItemDisplay[CL3 ELT !ETH NMAG !RW RES>29 SOCK=3]: <聖>%NAME%【聖堂│夢境│飛龍】%RED%(40抗↑)%GRAY%(%SOCKETS%) //聖騎盾(30抗以上)3 - 聖堂/夢境/飛龍
+//ItemDisplay[CL3 ELT !ETH NMAG !RW RES>29 SOCK=3]: <聖>%NAME%【聖堂│夢境│飛龍】%RED%(40抗↑)%GRAY%(%SOCKETS%) //聖騎盾(30抗以上)3 - 聖堂/夢境/飛龍
+ItemDisplay[CL3 ELT !ETH NMAG !RW RES>44 SOCK=4]: <聖>%NAME%【精神】%RED%(45抗)%GRAY%(%SOCKETS%) //聖騎盾(45抗)4 - 精神
 //ItemDisplay[CL3 ELT !ETH NMAG !RW RES>39 SOCK=4]: <聖>%NAME%【精神】%RED%(40抗↑)%GRAY%(%SOCKETS%) //聖騎盾(40抗以上)4 - 精神
-ItemDisplay[CL3 ELT !ETH NMAG !RW RES>29 SOCK=4]: <聖>%NAME%【精神】%RED%(30抗↑)%GRAY%(%SOCKETS%) //聖騎盾(30抗以上)4 - 精神
+//ItemDisplay[CL3 ELT !ETH NMAG !RW RES>29 SOCK=4]: <聖>%NAME%【精神】%RED%(30抗↑)%GRAY%(%SOCKETS%) //聖騎盾(30抗以上)4 - 精神
 ItemDisplay[CL3 ELT ETH NMAG !RW RES>39 SOCK=4]: <聖>◎%NAME%【流亡】%RED%(40抗↑)%GRAY%(%SOCKETS%) //聖騎盾(40抗以上)4(無) - 流亡
 
 // 死靈
